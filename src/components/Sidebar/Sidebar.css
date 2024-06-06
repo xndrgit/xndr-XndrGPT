@@ -33,6 +33,8 @@
 .sidebar .recent{
     display: flex;
     flex-direction: column;
+
+    animation: fadeIn 1.5s;
 }
 
 .sidebar .recent-title{
@@ -54,12 +56,18 @@
     background: #e2e6eb;
 }
 
-.sidebar .bottom{
+.sidebar .bottom {
     display: flex;
     flex-direction: column;
 }
 
-.sidebar .bottom-item{
+.sidebar .bottom-item {
     padding-right: 10px;
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .sidebar {
+        display: none;
+    }
 }
