@@ -1,5 +1,4 @@
 # XndrGPT
-<br>
 XndrGPT, originated as a site where you could chat with your personal ai that use gemini API. Frontend code and API connection are open source.
 
 ## A sneak peek into what we have here🙈 :
