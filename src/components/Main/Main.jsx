@@ -47,11 +47,25 @@ function Main() {
                         </div>
                         <div className="result-data">
                             <img src={assets.gemini_icon} alt="" />
-                            {resultData?
-                                <p dangerouslySetInnerHTML={{__html:resultData}}></p>
-                                :
-                                <p>You can't use me without a billing account linked.</p>
+
+                            {resultData
+                                ?
+                                <>
+                                    {loading
+                                        ?<div className="loader">
+                                            <hr/>
+                                            <hr/>
+                                            <hr/>
+                                        </div>
+
+                                        :<p dangerouslySetInnerHTML={{__html:resultData}}></p>
+                                    }
+                                </>
+
+                                :<a href="https://console.cloud.google.com/billing"><p>You can't use me without a billing account linked.</p></a>
                             }
+
+
 
                         </div>
                     </div>

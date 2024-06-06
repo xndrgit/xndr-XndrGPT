@@ -16,13 +16,15 @@ const ContextProvider = (props) => {
 
         setRecentPrompt(input)
         setInput("")
-
         setResultData("")
         setLoading(true)
         setShowResult(true)
+
         const response = await run(input)
         setResultData(response)
+
         setLoading(false)
+
 
     }
 
