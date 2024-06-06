@@ -1,8 +1,13 @@
-# React + Vite
+# XndrGPT
+<br>
+XndrGPT, originated as a site where you could chat with your personal ai that use gemini API. Frontend code and API connection are open source.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## A sneak peek into what we have here🙈 :
+![image](https://github.com/xndrgit/xndr-XndrGPT/assets/115892862/3df07797-6f99-4171-80ea-fe42073a18f0)
 
-Currently, two official plugins are available:
+## How to use this?🛠
+contact me via <a href="https://www.instagram.com/xndr.ig/"> instagram </a>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Security Vulnerabilities & Collab 💌
+If you discover a security vulnerability or you wanna collab, please send an e-mail to xndr via [mymails.xander@gmail.com](mailto:mymails.xander@gmail.com).
+
